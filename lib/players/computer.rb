@@ -2,8 +2,8 @@ module Players
   class Computer < Player
 
     def move(board)
-      token
-      "4"
+      player_two
+      binding.pry
     end
 
   end
