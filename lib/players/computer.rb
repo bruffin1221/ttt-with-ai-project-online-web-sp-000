@@ -2,9 +2,7 @@ module Players
   class Computer < Player
 
     def move(board)
-      input=gets.chomp
-      cells[input-1]="0"
-      
+      board.turn_count
     end
 
   end
