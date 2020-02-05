@@ -3,7 +3,6 @@ module Players
 
     def move(board)
       4
-      binding.pry
     end
 
   end
