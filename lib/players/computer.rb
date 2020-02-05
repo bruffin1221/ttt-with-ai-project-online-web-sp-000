@@ -2,11 +2,10 @@ module Players
   class Computer < Player
 
     def move(board)
-     if board.turn_count==0
-       "5"
-      binding.pry
+     board.turn_count==0
+       "5"  
     end
-  end 
+  end
 
   end
 end
