@@ -2,7 +2,7 @@ module Players
   class Computer < Player
 
     def move(board)
-      4
+      1
     end
 
   end
