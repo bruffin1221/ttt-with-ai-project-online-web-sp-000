@@ -2,7 +2,6 @@ module Players
   class Computer < Player
 
     def move(board)
-      input=gets.chomp
       "5"
       if board.position[1]="O"
         "2"
