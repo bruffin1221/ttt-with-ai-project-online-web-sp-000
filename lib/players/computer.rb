@@ -3,7 +3,7 @@ module Players
 
     def move(board)
       "5"
-      if board.valid_move?(1)=="O"
+      if board.cells(1)=="O"
         "2"
     end
   end
