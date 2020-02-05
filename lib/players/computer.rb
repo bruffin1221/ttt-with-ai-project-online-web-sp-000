@@ -2,7 +2,7 @@ module Players
   class Computer < Player
 
     def move(board)
-      player_two
+      Game.new
       binding.pry
     end
 
