@@ -2,9 +2,10 @@ module Players
   class Computer < Player
 
     def move(board)
-     board.turn_count=0
+     if board.turn_count==0
        "5"
     end
+  end 
 
   end
 end
