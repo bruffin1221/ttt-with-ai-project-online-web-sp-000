@@ -2,6 +2,7 @@ module Players
   class Computer < Player
 
     def move(board)
+      token
       "4"
     end
 
