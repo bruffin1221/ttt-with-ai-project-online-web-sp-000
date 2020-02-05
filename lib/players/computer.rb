@@ -2,7 +2,7 @@ module Players
   class Computer < Player
 
     def move(board)
-      board.cells[4]=token
+      4
       binding.pry
     end
 
