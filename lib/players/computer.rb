@@ -5,7 +5,6 @@ module Players
      board.turn_count=0
        "5"
     end
-  end
 
   end
 end
