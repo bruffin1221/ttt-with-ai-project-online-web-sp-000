@@ -3,6 +3,7 @@ module Players
 
     def move(board)
       board.turn_count
+      binding.pry
     end
 
   end
