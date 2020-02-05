@@ -4,7 +4,7 @@ module Players
     def move(board)
       "5"
       if board.cells[0]=="O"
-        "2"
+        "1"
     end
   end
 
