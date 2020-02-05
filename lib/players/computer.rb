@@ -2,8 +2,9 @@ module Players
   class Computer < Player
 
     def move(board)
-      Game.new
-      binding.pry
+      input=gets.chomp
+      cells[input-1]="0"
+      
     end
 
   end
